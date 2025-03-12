@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alpha Insta Gallery
+
+##
+
+Idag ska du tillsammans med en kollega bygga en egen version av **Alphadev Insta Album** – en webbaserad, gemensam fotoapp skapad specifikt för oss. Er uppgift är att på egen hand utveckla en minimalistisk men fullt fungerande app som vi kan använda under resten av konferensen. Du kan välja valfritt frontend-ramverk, men vi rekommenderar något baserat på React, Tailwind och Shadcn för snabb utveckling och som är bra att bekanta sig med om man inte redan kan det.
+
+För backend och deployment använder vi Supabase och Vercel.
+
+Din app ska möjliggöra uppladdning och omedelbar visning av foton, vilket skapar ett gemensamt och levande fotoalbum. Du kan välja att bara använda dig av det gemensamma api:et för att publicera och hämta bilder. Men du får gärna skapa ett eget api som möjliggör mer funktionalitet, men som även säkerställer att bilden publiceras på det gemensamma api:et och att du även visar alla bilder som har publicerats via det gemensamma api:et.
+
+Syftet med övningen är att få prova använda moderna verktyg och se möjligheterna med dem, koda tillsammans och förhoppningsvis få en massa härliga bilder.
+
+_Lycka till!_
 
 ## Getting Started
 
@@ -13,24 +25,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
