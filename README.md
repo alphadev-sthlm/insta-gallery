@@ -1,7 +1,5 @@
 # Alpha Insta Gallery
 
-##
-
 Idag ska du tillsammans med en kollega bygga en egen version av **Alphadev Insta Album** – en webbaserad, gemensam fotoapp skapad specifikt för oss. Er uppgift är att på egen hand utveckla en minimalistisk men fullt fungerande app som vi kan använda under resten av konferensen. Du kan välja valfritt frontend-ramverk, men vi rekommenderar något baserat på React, Tailwind och Shadcn för snabb utveckling och som är bra att bekanta sig med om man inte redan kan det.
 
 För backend och deployment använder vi Supabase och Vercel.
