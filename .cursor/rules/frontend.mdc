@@ -1,0 +1,19 @@
+---
+description: Rules for frontend componentes
+globs: *.tsx
+alwaysApply: false
+---
+# Nextjs
+- Use functional components with hooks instead of class components
+- Follow the single responsibility principle for components
+- Utilize the App Router for improved performance and simpler routing
+- Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC).
+- Wrap client components in Suspense with fallback.
+- Use dynamic loading for non-critical components.
+
+# Tailwind
+- Use utility-first classes for rapid development and consistency
+- Create custom components with `@apply` directive for reusability
+- Implement responsive design using Tailwind's built-in breakpoints
+- Optimize your CSS by purging unused styles in production builds
+
